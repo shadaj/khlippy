@@ -178,37 +178,37 @@ const earnedBadges = {
     },
     recentBadges: [
         {
-            image: "/image/badges/earth/work-horse-512x512.png",
+            image: "./image/badges/earth/work-horse-512x512.png",
             name: "Work Horse"
         },
         {
-            image: "/image/badges/earth/sensei-512x512.png",
+            image: "./image/badges/earth/sensei-512x512.png",
             name: "Sensei"
         },
         {
-            image: "/image/badges/eclipse.png",
+            image: "./image/badges/eclipse.png",
             name: "Atlas"
         }
     ],
     soonBadges: [
         {
-            image: "/image/badges/earth/work-horse-512x512.png",
+            image: "./image/badges/earth/work-horse-512x512.png",
             name: "Work Horse"
         },
         {
-            image: "/image/badges/earth/investigator-512x512.png",
+            image: "./image/badges/earth/investigator-512x512.png",
             name: "Investigator"
         },
         {
-            image: "/image/badges/sun/magellan-512x512.png",
+            image: "./image/badges/sun/magellan-512x512.png",
             name: "Magellan"
         },
         {
-            image: "/image/badges/earth/ridiculous-listener-512x512.png",
+            image: "./image/badges/earth/ridiculous-listener-512x512.png",
             name: "Ridiculous Listener"
         },
         {
-            image: "/image/badges/eclipse.png",
+            image: "./image/badges/eclipse.png",
             name: "Is Sal"
         }
     ]
@@ -234,40 +234,40 @@ const combo = {
     },
     recentBadges: [
         {
-            image: "/image/badges/earth/work-horse-512x512.png",
+            image: "./image/badges/earth/work-horse-512x512.png",
             name: "Work Horse"
         },
         {
-            image: "/image/badges/earth/sensei-512x512.png",
+            image: "./image/badges/earth/sensei-512x512.png",
             name: "Sensei"
         },
         {
-            image: "/image/badges/eclipse.png",
+            image: "./image/badges/eclipse.png",
             name: "Atlas"
         }
     ],
     soonBadges: [
         {
-            image: "/image/badges/earth/work-horse-512x512.png",
+            image: "./image/badges/earth/work-horse-512x512.png",
             name: "Work Horse"
         },
         {
-            image: "/image/badges/earth/investigator-512x512.png",
+            image: "./image/badges/earth/investigator-512x512.png",
             name: "Investigator"
         },
         {
-            image: "/image/badges/sun/magellan-512x512.png",
+            image: "./image/badges/sun/magellan-512x512.png",
             name: "Magellan"
         },
         {
-            image: "/image/badges/earth/ridiculous-listener-512x512.png",
+            image: "./image/badges/earth/ridiculous-listener-512x512.png",
             name: "Ridiculous Listener"
         },
         {
-            image: "/image/badges/eclipse.png",
+            image: "./image/badges/eclipse.png",
             name: "Is Sal"
         }
     ]
 };
 
-ReactDOM.render(<TalkFlow userData={newUser}/>, document.querySelector("#main-container"));
+ReactDOM.render(<TalkFlow userData={combo}/>, document.querySelector("#main-container"));

@@ -99,7 +99,7 @@ const CalendarStamp = React.createClass({
 
                 className={this.state.stamped ? "stamped" : "unstamped"}
 
-                src="/image/avatars/svg/leaf-green.svg"
+                src="./image/avatars/svg/leaf-green.svg"
             />
         </div>;
     }

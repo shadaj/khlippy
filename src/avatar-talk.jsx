@@ -38,7 +38,7 @@ const AvatarTalk = React.createClass({
             <img
                 className="avatar"
                 style={{width: "30%", marginLeft: "70%"}}
-                src={`/image/avatars/svg/${avatarType}-${avatarStage}.svg`}
+                src={`./image/avatars/svg/${avatarType.toLowerCase()}-${avatarStage}.svg`}
             />
         </div>;
     },
